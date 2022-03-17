@@ -1,0 +1,10 @@
+table,th,td{
+    border: 1px solid;
+}
+#myTable{
+    border-spacing: 2px;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    50%{border-spacing: 20px;}
+}
